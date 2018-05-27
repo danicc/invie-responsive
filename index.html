@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="css/invie.css"/>
         <!-- <link rel="stylesheet" media="(max-width: 800px)" href="css/media-query.css"> -->
+        <style>
+            @font-face{font-family:'icomoon';src:url(./fonts/icomoon.eot?hii8tz);src:url(./fonts/icomoon.eot?hii8tz#iefix) format("embedded-opentype"),url(./fonts/icomoon.ttf?hii8tz) format("truetype"),url(./fonts/icomoon.woff?hii8tz) format("woff"),url(./fonts/icomoon.svg?hii8tz#icomoon) format("svg");font-weight:400;font-style:normal}[class*=" icon-"]{font-family:'icomoon'!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-menu:before{content:"\e9bd"}body{font-family:'Allerta',sans-serif;margin:0}.contenedor{max-width:800px;margin:auto;position:relative}.background{background-color:#466173;background-image:url(./images/background.png);background-size:cover}.button{border-radius:12px;border:none;background:#FD324E;color:#fff;padding:7px 12px;text-decoration:none;font-size:18px;background:linear-gradient(to left,#FE344E,#ff7250)}.header{display:absolute}.titulo{font-size:70px;font-family:'Montserrat',sans-serif;margin-bottom:0;margin-top:70px}.titulo span{text-decoration:underline}.title-a{font-size:24px;margin-top:0}.guitarras{color:#1F313C;margin-bottom:60px}.guitarras h2{font-size:35px;font-family:'Montserrat',sans-serif}.portada{color:#fff;padding:20px;height:500px}.menu{font-size:24px;display:inline-block;position:absolute;right:0}.menu a{color:#fff;text-decoration:none}.menu li{display:inline-block;margin-left:30px}.menu li:before{content:"∘";font-size:40px;line-height:20px;color:#fff}.logotipo{display:inline-block;margin-left:0}.burger-button{width:40px;height:40px;border-radius:50%;line-height:40px;background:#395667;display:inline-block;text-align:center;position:fixed;left:20px;top:20px;z-index:3;color:#fff;display:none}.video-demo{max-width:500px;width:100%;border:5px solid #3c5b6e}.video-demo-contenedor{display:flex;justify-content:center;margin-bottom:80px}.responsive-video-container{position:relative;padding-top:56.25%}.responsive-video{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%}@media screen and (max-width:800px){.menu{font-size:22px}.titulo{font-size:45px;margin-top:30px}.title-a{font-size:18px}.portada{height:auto}.portada .button{margin-bottom:30px;display:inline-block}.guitarras{text-align:center}.video-demo-contenedor{margin-bottom:30px}}@media screen and (max-width:650px){.header{text-align:center}.logotipo{margin:0}.menu{position:static;display:block}.menu li:first-child{margin:0}.menu ul{padding:0}.video-demo-contenedor{margin:0 10px 30px}}@media screen and (max-width:500px){.portada .button{display:block}.burger-button{display:block}.menu{background:rgba(255,60,88,.8);position:fixed;top:0;left:-100%;bottom:0;z-index:2;display:flex;align-items:center;width:100%}.menu ul{flex:1}.menu li{display:block;margin:0;text-align:center;padding:10px 0;border-bottom:1px solid #fff}.menu li:first-child{border-top:1px solid #fff}.menu li:before{display:none}.portada{text-align:center}.portada .contenedor{position:static}.header{position:static}.titulo{font-size:30px}.title-a{font-size:16px}}@media screen and (--webkit-min-device-pixel-ratio: 2){.background{background-image:url(./images/background2x.png)}}
+        </style>
     </head>
     <body>
         <section id="portada" class="portada background"><!-- portada -->
@@ -159,7 +161,7 @@
             var hammerTime = new Hammer(body);
             hammerTime.on('swipeleft', hideMenu);
             hammerTime.on('swiperight', showMenu);
-
         </script>
+        <link rel="stylesheet" href="css/invie.css"/>
     </body>
 </html>
